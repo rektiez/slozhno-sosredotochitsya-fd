@@ -1,0 +1,20 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+:root.theme-dark {
+  --bg-color: #000028;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --text-color: #f1b2ce;
+  --bg-image: url(../images/cover-image-dark.png);
+  --title-decor-color: #000028;
+  --section-title-color: #ff0070;
+  --article-title-color: #000028;
+  --theme-menu-color: #ff0070;
+  --theme-menu-border-color: #ff0070;
+  --lamp-display: block;
+  --decorative-element-color: #ff0070;
+}

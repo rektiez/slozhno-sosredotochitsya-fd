@@ -1,0 +1,43 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+:root.theme-light {
+  --bg-color: #fff1f7;
+  --accent-color: #ff8dcb;
+  --title-color: #ffc2e6;
+  --article-title-color: var(--text-color-light);
+  --title-decor-color: var(--text-color-light);
+  --text-color: var(--text-color-light);
+  --section-title-color: var(--text-color-light);
+  --theme-menu-color: var(--text-color-light);
+  --theme-menu-border-color: rgba(50, 49, 45, 0.4);
+  --bg-image: url(../images/cover-image-light.png);
+  --lamp-display: none;
+  --decorative-element-color: var(--text-color-light);
+  --text-color-light: #353430;
+}
+
+.theme-light .header__lamp {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --title-color: #ffc2e6;
+    --article-title-color: var(--text-color-light);
+    --title-decor-color: var(--text-color-light);
+    --text-color: var(--text-color-light);
+    --section-title-color: var(--text-color-light);
+    --theme-menu-color: var(--text-color-light);
+    --theme-menu-border-color: rgba(50, 49, 45, 0.4);
+    --bg-image: url(../images/cover-image-light.png);
+    --lamp-display: none;
+    --decorative-element-color: var(--text-color-light);
+    --text-color-light: #353430;
+  }
+}

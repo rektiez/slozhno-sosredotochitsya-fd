@@ -1,0 +1,25 @@
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+:root {
+  --main-font: "IBM Plex Mono", monospace;
+  --main-font-size: 18px;
+  --title-line-height: clamp(5.98125rem, 5.7844rem + 0.8397vw, 6.1875rem);
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --padding-inline: 10px;
+  --bg-color: #000028;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --text-color: #f1b2ce;
+  --bg-image: url(../images/cover-image-dark.png);
+  --title-decor-color: #000028;
+  --section-title-color: #ff0070;
+  --article-title-color: #000028;
+  --theme-menu-color: #ff0070;
+  --theme-menu-border-color: #ff0070;
+  --lamp-display: block;
+  --decorative-element-color: #ff0070;
+}
