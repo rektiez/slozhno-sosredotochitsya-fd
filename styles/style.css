@@ -49,7 +49,6 @@
   font-family: var(--main-font);
   right: 28px;
   line-height: 25px;
-  font-size: var(--main-font-size);
 }
 .header__title {
   text-shadow: 4px 4px 0 var(--accent-color);
