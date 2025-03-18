@@ -357,6 +357,8 @@ a:focus-visible {
   .header__theme-menu {
     display: flex;
     justify-self: center;
+    align-self: start;
+
     margin-block-start: 17px;
   }
   .header__theme-menu-list {
