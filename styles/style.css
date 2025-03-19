@@ -18,6 +18,7 @@
   margin-block-end: 10px;
   position: relative;
   line-height: 23.4px;
+  align-items: center;
 }
 
 .header__lamp {
@@ -56,8 +57,6 @@
   font-size: var(--logo-size);
   color: var(--title-color);
   line-height: 82.5%;
-  margin-block-start: 55px;
-  margin-block-end: 55px;
   padding-inline: var(--padding-inline);
   max-width: 355px;
 }
@@ -67,6 +66,7 @@
   align-self: center;
   justify-self: end;
   padding-inline: var(--padding-inline);
+  margin-block-end: 55px;
 }
 
 .header__theme-menu-list {
@@ -124,6 +124,7 @@
   background-size: cover;
   line-height: 23.4px;
   margin-inline: var(--padding-inline);
+  margin-block-end: 10px;
   height: fit-content;
 }
 
@@ -183,9 +184,14 @@
   font-size: var(--main-font-size);
 }
 
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .article__title {
   margin-block-start: 20px;
-  margin-block-end: 10px;
   font-weight: var(--font-weight-bold);
   font-size: var(--main-font-size);
 }
@@ -194,8 +200,8 @@
   font-weight: var(--font-weight-normal);
 }
 
-.article__title.no-margin {
-  margin-block-start: 0px;
+.article__title.no-bold.no-margin {
+  margin-block: 10px;
 }
 
 .title-decor {
@@ -215,7 +221,7 @@
 
 .article__title-tips {
   margin-block-start: 19px;
-  margin-block-end: 10px;
+  margin-block-end: 0px;
   height: fit-content;
   font-weight: var(--font-weight-bold);
   font-size: var(--main-font-size);
@@ -276,10 +282,9 @@ a:focus-visible {
   }
   .header__theme-menu {
     margin-block-start: 192px;
+    margin-block-end: 173px;
   }
   .header__title {
-    margin-block-start: 173px;
-    margin-block-end: 0px;
     padding-inline: 0;
     max-width: fit-content;
   }
@@ -305,7 +310,6 @@ a:focus-visible {
   }
   .article__title-tips {
     margin-block-start: 0px;
-    margin-block-end: 20px;
   }
   .section__causes {
     display: flex;
@@ -358,14 +362,13 @@ a:focus-visible {
     display: flex;
     justify-self: center;
     align-self: start;
-
     margin-block-start: 17px;
   }
   .header__theme-menu-list {
     flex-direction: row;
   }
   .header__title {
-    margin-block-start: 275px;
+    margin-block-start: 102px;
   }
   .header__paragraph {
     margin-block-start: 114px;
@@ -382,9 +385,6 @@ a:focus-visible {
   }
   .section__title-tips {
     grid-row: span 6;
-  }
-  .article__title {
-    margin-block-end: 10px;
   }
   .article {
     margin-block-end: 10px;
